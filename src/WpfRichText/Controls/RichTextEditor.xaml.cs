@@ -119,9 +119,9 @@ namespace WpfRichText
 			}
 		}
 
-		private void FontColorPicker_SelectedColorChanged(object sender, RoutedPropertyChangedEventArgs<Color> e)
+		private void FontColorPicker_SelectedColorChanged(object sender, RoutedPropertyChangedEventArgs<Color?> e)
 		{
-			this.mainRTB.Selection.ApplyPropertyValue(ForegroundProperty, e.NewValue.ToString(CultureInfo.InvariantCulture));
+			this.mainRTB.Selection.ApplyPropertyValue(ForegroundProperty, e.NewValue.GetValueOrDefault().ToString(CultureInfo.InvariantCulture));
 		}
 
 		private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

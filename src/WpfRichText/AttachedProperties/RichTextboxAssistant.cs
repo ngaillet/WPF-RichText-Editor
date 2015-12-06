@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 using System.Windows;
 using System.Windows.Documents;
 using System.Windows.Controls;
 using System.IO;
-using System.Windows.Input;
 using System.Windows.Markup;
 using System.Windows.Data;
 
 namespace WpfRichText
 {
-	/// <summary></summary>
-	public static class RichTextBoxAssistant
+    /// <summary></summary>
+    public static class RichTextBoxAssistant
     {
 		/// <summary></summary>
 		public static readonly DependencyProperty BoundDocument =

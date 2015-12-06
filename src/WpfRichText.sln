@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRichText.Example", "WpfRichText.Ex\WpfRichText.Example.csproj", "{5922EBAC-5CC0-4079-97D7-FCEC9C01AA43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRichText", "WpfRichText\WpfRichText.csproj", "{78147C43-DB7B-4571-BC7A-E7F0075B4B78}"
